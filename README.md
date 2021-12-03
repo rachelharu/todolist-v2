@@ -15,7 +15,7 @@
 - create custom lists using express route parameters 
 
 EXAMPLE CODE:
-
+```
   app.get("/:customListName", function(req, res){
   const customListName = _.capitalize(req.params.customListName);
 
@@ -27,7 +27,7 @@ EXAMPLE CODE:
         name: customListName,
         items: defaultItems
       });
-
+```
 
 - add new items to custom todo lists 
 

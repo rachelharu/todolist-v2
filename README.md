@@ -28,18 +28,6 @@ EXAMPLE CODE:
         items: defaultItems
       });
 
-      list.save();
-      res.redirect("/" + customListName);
-    } else {
-      //Show existing list
-      res.render("list", {listTitle: foundList.name, newListItems: foundList.items
-      })
-    }
-  }
-  });
-
-
-});
 
 - add new items to custom todo lists 
 

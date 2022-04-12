@@ -33,6 +33,5 @@ EXAMPLE CODE:
 
 - delete items from custom todo lists
 
-#LIVE SITE 
-https://guarded-wildwood-23995.herokuapp.com/
+
 
